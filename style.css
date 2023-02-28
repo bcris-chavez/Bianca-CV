@@ -347,8 +347,8 @@ fieldset {
 
 button {
   background-color: #fff;
-  border: 1px solid #7600bc;
-  color: #7600bc;
+  border: 1px solid #018ABE;
+  color: #018ABE;
   display: block;
   border-radius: 6px;
   text-align: center;
@@ -359,8 +359,8 @@ button {
 }
 
 button:hover {
-  background-color: #7600bc;
-  border: 1px solid #7600bc;
+  background-color: #018ABE;
+  border: 1px solid #018ABE;
   color: #fff;
   display: block;
   border-radius: 6px;
@@ -369,8 +369,8 @@ button:hover {
 }
 
 .download-btn button:hover {
-  background-color: #7600bc;
-  border: 1px solid #7600bc;
+  background-color: #018ABE;
+  border: 1px solid #018ABE;
   color: #fff;
   display: block;
   border-radius: 6px;
@@ -379,7 +379,7 @@ button:hover {
 }
 
 .download-btn{
-  background-color: #7600bc;
+  background-color: #018ABE;
   color: white;
   padding: 1rem 2rem;
   font-size: 2 rem;
