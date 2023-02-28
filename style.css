@@ -342,3 +342,47 @@ fieldset {
   border: thin solid white;
   width: 50%;
 }
+
+/* Buttons */
+
+button {
+  background-color: #fff;
+  border: 1px solid #7600bc;
+  color: #7600bc;
+  display: block;
+  border-radius: 6px;
+  text-align: center;
+  margin: 50px;
+  padding: 10px;
+  width: 2in;
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: #7600bc;
+  border: 1px solid #7600bc;
+  color: #fff;
+  display: block;
+  border-radius: 6px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.download-btn button:hover {
+  background-color: #7600bc;
+  border: 1px solid #7600bc;
+  color: #fff;
+  display: block;
+  border-radius: 6px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.download-btn{
+  background-color: #7600bc;
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 2 rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
