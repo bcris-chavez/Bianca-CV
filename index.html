@@ -13,7 +13,7 @@
           Bianca Chavez
           <div class="contact_info">
             <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
-          bcris.chb@gmail.com
+          <a href="mailto:bcris.chb@gmail.com">bcris.chb@gmail.com</a>
         </div>
         <div style="clear:both;"></div>
         <div class="contact_info">
@@ -75,7 +75,26 @@
       </div>
     </section>
   
-              
+    <!-- Hobbies -->
+
+    <section id="hobbies">
+      <h2>Hobbies</h2>
+      <div style="clear: both;"></div>
+      <div class="all_hobbies">
+        <div class="hobbie">
+          <img src="./images/friends.jpeg"/>
+          <h6>Pasar tiempo en familia o con amigos</h6>
+        </div>
+        <div class="hobbie">
+          <img src="./images/games.jpeg"/>
+          <h6>Jugar juegos de mesa</h6>
+        </div>
+        <div class="hobbie">
+          <img src="./images/travel.jpeg"/>
+          <h6>Viajar</h6>
+        </div>
+      </div>
+    </section>
     <!-- Skills -->
     <section id="skills">
       <h2>Habilidades Técnicas</h2>
@@ -186,9 +205,49 @@
 <section class="key" id="key">
   <div class="section-card">
   <!--  <h3>-- Public key here --</h3> -->
-  </div>
-  
+  </div>  
 </section>
+
+<!--Acerca de Criptografía-->
+<section class="about_crypto" id="crypto">
+  <h2>Acerca de criptografía</h2>
+  <div style="clear: both;"></div>
+  <div id="section-container" class="section-container">
+    <div class="section-card">
+      <h3>La criptografía y el Bitcoin</h3>
+      <p>Bitcoin utiliza elliptic curve cryptography (ECC) y Secure Hash Algorithm 256 (SHA-256) para 
+        generar llaves públicas de sus respectivas llaves privadas.  
+      </p>
+      <p>
+        Se utilizan las llaves públicas para crear la dirección del monedero criptográfico que recibirá 
+        transacciones de Bitcoins. Las llaves privadas se utilizan para firmar la transacción y asegura 
+        que esa dirección monedero le pertenece y por tanto puede hacer uso de los Bitcoins. Estas llaves
+        privadas se almacenan en el monedero criptográfico, el cual permite el acceso a los fondos criptográficos.
+      </p>
+      <p> <b>Elliptic curve cryptography (ECC)</b></p>
+      <p>ECC utiliza una curva matemática especial que es horizontalmente simétrica. Si se dibuja una 
+        línea a través de esa curva, se cruzará con la forma hasta en tres ocasiones.
+      </p>
+      <p>
+        La clave privada de Bitcoin es generada automaticamente, al configurar un nuevo monedero criptográfico,
+        con un número aleatorio de 256 bits. A partir de esta llave se puede generar la llave pública, mediante 
+        la multiplicación de curvas elípticas. Para ello se toma un punto de partida en una curva elíptica y se multiplica por
+        la llave privada produciendo así un nuevo punto en la curva. Dicho punto se convierte en la llave pública.
+      </p>
+      <p>
+        Actualmente no es posible encontrar la llave privada conociendo la llave pública, por lo cual se 
+        considera un sistema seguro.
+      </p>
+      <p><b>SHA-256</b></p>
+      <p>
+        El algoritmo SHA-256 convierte cualquier entrada en un código único de 256 bits de longitud fija, el
+        cual se presenta en formato hexadecimal de 64 caracteres. En el caso de las criptomonedas, las 
+        coordenadas de la llave pública ingresan al algoritmo SHA-256.
+      </p>
+    </div>
+  </div>
+</section>
+
 <div style="clear:both;"></div>
 
     <div class="iconbutton">
